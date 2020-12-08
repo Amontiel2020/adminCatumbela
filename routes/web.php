@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-	echo "Mensagem";
-	echo "Olá! Seja bem-vindo a sua nova aplicação";
-    // return view('welcome');
+	//echo "Mensagem";
+	//echo "Olá! Seja bem-vindo a sua nova aplicação";
+    return view('welcome');
 });
